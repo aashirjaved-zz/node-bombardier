@@ -1,0 +1,16 @@
+{
+  "name": "node-bombardier",
+  "version": "0.0.1",
+  "description": "NodeJS based api loadtester ",
+  "main": "index.js",
+  "scripts": {
+    "test": "node app.js"
+  },
+  "author": "Aashir Javed",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.6.1",
+    "cli-progress": "^2.1.0",
+    "request": "^2.88.0"
+  }
+}
