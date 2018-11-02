@@ -5,6 +5,9 @@ const _cliProgress = require('cli-progress');
 
 
 
+
+
+
 //progress bar
 const totalCalls = new _cliProgress.Bar({}, _cliProgress.Presets.shades_classic);
 var avgCallResponseTime= 0;
@@ -28,7 +31,6 @@ function httpGet(url, callback) {
     });
 }
 
-//here you can add url 
 const urls = []
 for (let i = 0; i < 1000; i++) {
     urls.push("http://www.youtube.com")
