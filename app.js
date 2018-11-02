@@ -28,6 +28,7 @@ function httpGet(url, callback) {
     });
 }
 
+//here you can add url 
 const urls = []
 for (let i = 0; i < 1000; i++) {
     urls.push("http://www.youtube.com")
